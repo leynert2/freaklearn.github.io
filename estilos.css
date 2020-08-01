@@ -1,0 +1,56 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 1920px;
+    margin: 30px auto;
+    background: #129bf0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 25px 135px;
+    padding-left: center;
+    padding-right: center;
+    color:  white;
+    font-size: 22px;
+    font-family: alegreya sans;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu{
+    margin-left: 0%;
+    margin-bottom: 0px;
+}
+
+nav ul li:hover {
+    background:#08649e;
+    padding-top: 0px;
+}
+
+@font-face {
+    font-family: alegreya sans;
+    src: url(fuentes/AlegreyaSans-Black.ttf);
+}
+
+
+
+
